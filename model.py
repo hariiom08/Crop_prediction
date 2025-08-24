@@ -6,7 +6,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.ensemble import RandomForestClassifier
 
 # Load the dataset
-data = pd.read_csv('Crop_recommendation.csv')  # Reading csv file
+data = pd.read_csv('Crop_recommendation.csv')  # Reading csv file using pandas
 
 # Split the data into features and labels
 X = data.iloc[:, :-1]  # Features
@@ -32,6 +32,6 @@ pickle.dump(model, open("model.pkl", "wb"))
 # print("Accuracy:", accuracy)
 
 # Example usage: Predict crop for a new set of features
-# new_features = [[117 ,32,34,26.2724184,52.12739421,6.758792552,127.1752928,]]  # Replace with your own set of features
+# new_features = [[117 ,32,34,26.2724184,52.12739421,6.758792552,127.1752928,]]  # input features
 # predicted_crop = model.predict(new_features)
 # print("Predicted crop:", predicted_crop)
