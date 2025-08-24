@@ -16,7 +16,6 @@ This project is a web-based Crop Recommendation System that predicts the most su
 ## Project Structure
 ```
 ├── app.py                  # Main Flask application
-├── main.py                 # (Optional) Additional logic or entry point
 ├── model.py                # Model training and loading logic
 ├── model.pkl               # Trained machine learning model
 ├── Crop_recommendation.csv # Dataset used for training
