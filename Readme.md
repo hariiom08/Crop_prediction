@@ -1,6 +1,6 @@
 # Crop Prediction Web Application
 
-This project is a web-based Crop Recommendation System that predicts the most suitable crop to grow based on various environmental and soil parameters. It uses a machine learning model trained on agricultural data to provide recommendations to farmers and agricultural professionals.
+This project is a web-based Crop Recommendation System that predicts the most suitable crop to grow based on various environmental and soil parameters. It uses a machine learning model trained on agricultural data to provide recommendations to farmers and agricultural workers.
 
 ## Features
 - User-friendly web interface built with Flask
